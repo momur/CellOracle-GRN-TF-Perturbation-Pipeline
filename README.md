@@ -7,7 +7,7 @@ single-cell multi-omics data.
 ## Workflow
 
 ```
-EC_BETA_integ_celloracle.h5ad
+islets_integ_celloracle.h5ad
         │
         ▼
   1. Pre-process (normalise, HVG, PCA, leiden)
@@ -88,7 +88,7 @@ python celloracle_grn_coexpression_analysis.py
 | `processed_peak_file.csv` | Filtered ATAC peaks with TSS annotation |
 | `test1.celloracle.tfinfo` | TF motif scan results |
 | `base_GRN_dataframe.parquet` | Base GRN matrix |
-| `EC_beta_subset.celloracle.oracle` | Oracle object |
+| `islets_subset.celloracle.oracle` | Oracle object |
 | `links.celloracle.links` | GRN links per cell type |
 | `filtered_GRN_for_<celltype>.csv` | Filtered GRN per cell type |
 | `raw_GRN_for_<celltype>.csv` | Raw GRN per cell type |
