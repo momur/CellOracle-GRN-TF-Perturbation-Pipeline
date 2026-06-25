@@ -1,7 +1,7 @@
 # CellOracle GRN + TF Perturbation Pipeline
 
 Gene regulatory network (GRN) inference and transcription factor (TF) perturbation
-simulation using [CellOracle](https://celloracle.readthedocs.io/) on EC/Beta cell
+simulation using [CellOracle](https://celloracle.readthedocs.io/) on 
 single-cell multi-omics data.
 
 ## Workflow
